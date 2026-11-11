@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NOIRÉ | Luxury Watches</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <div class="logo">NOIRÉ.</div>
+
+        <nav>
+            <a href="#home">HOME</a>
+            <a href="#collection">COLLECTION</a>
+            <a href="#about">ABOUT</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <div class="small">THE ART OF TIME</div>
+
+            <h1>
+                Elegance <br>
+                Never <span>Ends.</span>
+            </h1>
+
+            <p>
+                Discover extraordinary craftsmanship
+                and timeless luxury. Designed for those
+                who believe every second deserves perfection.
+            </p>
+
+            <a href="#collection" class="btn">
+                DISCOVER COLLECTION
+            </a>
+
+        </div>
+
+        <div class="hero-image">
+            <img
+            src="Fossil Black Dial Leather Watch-2.png"
+            alt="Luxury Watch">
+        </div>
+
+    </section>
+
+    <!-- COLLECTION -->
+    <section class="collection" id="collection">
+
+        <div class="section-label">
+            EXCLUSIVE TIMEPIECES
+        </div>
+
+        <h2>Our Collection</h2>
+
+        <p class="description">
+            A masterpiece on your wrist. A statement in your style.
+        </p>
+
+        <div class="products">
+
+            <div class="product">
+
+                <img src="Luxury Silver Edifice Chronograph Watch-1.png" alt="Golden Classic">
+
+                <h3>Golden Classic</h3>
+
+                <p class="price">$299</p>
+
+                <button onclick="addToCart('Golden Classic')">
+                    ADD TO CART
+                </button>
+
+            </div>
+
+            <div class="product">
+
+                <img src="https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=600" alt="Midnight Royal">
+
+                <h3>Midnight Royal</h3>
+
+                <p class="price">$399</p>
+
+                <button onclick="addToCart('Midnight Royal')">
+                    ADD TO CART
+                </button>
+
+            </div>
+
+            <div class="product">
+
+                <img src="https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=600" alt="Imperial Gold">
+
+                <h3>Imperial Gold</h3>
+
+                <p class="price">$499</p>
+
+                <button onclick="addToCart('Imperial Gold')">
+                    ADD TO CART
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+
+        <div class="section-label">OUR PHILOSOPHY</div>
+
+        <h2>More Than A Watch</h2>
+
+        <p>
+            NOIRÉ represents the perfect balance between
+            sophistication and individuality. Every timepiece
+            tells a story of ambition, precision and elegance.
+            We don't simply measure time. We celebrate it.
+        </p>
+
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features">
+
+        <div class="feature">
+            <span>✧</span>
+            <h3>Premium Design</h3>
+            <p>Beautifully designed timepieces with timeless details.</p>
+        </div>
+
+        <div class="feature">
+            <span>♛</span>
+            <h3>Luxury Quality</h3>
+            <p>Craftsmanship inspired by elegance and precision.</p>
+        </div>
+
+        <div class="feature">
+            <span>◇</span>
+            <h3>Timeless Style</h3>
+            <p>Distinctive styles for every unforgettable moment.</p>
+        </div>
+
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter" id="contact">
+
+        <h2>Join The NOIRÉ World</h2>
+
+        <p>
+            Be the first to discover our latest timepieces.
+        </p>
+
+        <form onsubmit="subscribe(event)">
+
+            <input
+            type="email"
+            placeholder="Your Email Address"
+            required>
+
+            <button type="submit">JOIN US</button>
+
+        </form>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+
+        © 2026 <span>NOIRÉ.</span> ALL RIGHTS RESERVED.
+
+        <p>TIMELESS LUXURY. ENDLESS ELEGANCE.</p>
+
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="index.js"></script>
+
+</body>
+</html>
